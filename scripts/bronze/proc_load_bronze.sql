@@ -9,6 +9,7 @@
 --   - Ensure SQL Server has read access to the file locations.
 --   - Files should be correctly formatted (CSV with ',' delimiter).
 -- ============================================================
+EXEC bronze.load_bronze;
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
